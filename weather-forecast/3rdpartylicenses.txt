@@ -1,0 +1,194 @@
+@progress/kendo-angular-dateinputs@5.1.0
+SEE LICENSE IN LICENSE.md
+# Kendo UI for Angular
+
+This package is part of the [Kendo UI for Angular](http://www.telerik.com/kendo-angular-ui/) suite.
+
+## License
+
+This is commercial software. To use it, you need to agree to the [**Telerik End User License Agreement for Kendo UI**](http://www.telerik.com/purchase/license-agreement/kendo-ui). If you do not own a commercial license, this file shall be governed by the trial license terms.
+
+All available Kendo UI commercial licenses may be obtained at http://www.telerik.com/purchase/kendo-ui.
+
+*Copyright © 2020 Progress Software Corporation and/or one of its subsidiaries or affiliates. All rights reserved.*
+
+lodash@4.17.21
+MIT
+Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
+
+Based on Underscore.js, copyright Jeremy Ashkenas,
+DocumentCloud and Investigative Reporters & Editors <http://underscorejs.org/>
+
+This software consists of voluntary contributions made by many
+individuals. For exact contribution history, see the revision history
+available at https://github.com/lodash/lodash
+
+The following license applies to all parts of this software except as
+documented below:
+
+====
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+====
+
+Copyright and related rights for sample code are waived via CC0. Sample
+code is defined as all source code displayed within the prose of the
+documentation.
+
+CC0: http://creativecommons.org/publicdomain/zero/1.0/
+
+====
+
+Files located in the node_modules and vendor directories are externally
+maintained libraries used by this software which have their own
+licenses; we recommend you read them, as their terms may differ from the
+terms above.
+
+webpack@4.16.4
+MIT
+Copyright JS Foundation and other contributors
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+@progress/kendo-angular-grid@5.0.3
+SEE LICENSE IN LICENSE.md
+# Kendo UI for Angular
+
+This package is part of the [Kendo UI for Angular](http://www.telerik.com/kendo-angular-ui/) suite.
+
+## License
+
+This is commercial software. To use it, you need to agree to the [**Telerik End User License Agreement for Kendo UI**](http://www.telerik.com/purchase/license-agreement/kendo-ui). If you do not own a commercial license, this file shall be governed by the trial license terms.
+
+All available Kendo UI commercial licenses may be obtained at http://www.telerik.com/purchase/kendo-ui.
+
+*Copyright © 2021 Progress Software Corporation and/or one of its subsidiaries or affiliates. All rights reserved.*
+
+@progress/kendo-angular-dropdowns@5.2.0
+SEE LICENSE IN LICENSE.md
+# Kendo UI for Angular
+
+This package is part of the [Kendo UI for Angular](http://www.telerik.com/kendo-angular-ui/) suite.
+
+## License
+
+This is commercial software. To use it, you need to agree to the [**Telerik End User License Agreement for Kendo UI**](http://www.telerik.com/purchase/license-agreement/kendo-ui). If you do not own a commercial license, this file shall be governed by the trial license terms.
+
+All available Kendo UI commercial licenses may be obtained at http://www.telerik.com/purchase/kendo-ui.
+
+*Copyright © 2021 Progress Software Corporation and/or one of its subsidiaries or affiliates. All rights reserved.*
+
+@progress/kendo-common@0.1.1
+SEE LICENSE IN LICENSE.md
+# Kendo UI for Angular
+
+This package is part of the [Kendo UI for Angular](http://www.telerik.com/kendo-angular-ui/) suite.
+
+## License
+
+This is commercial software. To use it, you need to agree to the [**Telerik End User License Agreement for Kendo UI Complete**](http://www.telerik.com/purchase/license-agreement/kendo-ui-complete). If you do not own a commercial license, this file shall be governed by the trial license terms.
+
+All available Kendo UI commercial licenses may be obtained at http://www.telerik.com/purchase/kendo-ui.
+
+*Copyright © 2018 Telerik AD. All rights reserved.*
+
+core-js@2.6.12
+MIT
+Copyright (c) 2014-2020 Denis Pushkarev
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+zone.js@0.8.29
+MIT
+The MIT License
+
+Copyright (c) 2016-2018 Google, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+@progress/kendo-theme-default@4.37.0
+Apache-2.0
+# Kendo UI Default Theme
+
+This package is part of the following suites:
+
+* [Kendo UI for Angular](http://www.telerik.com/kendo-angular-ui/)
+* [KendoReact](http://www.telerik.com/kendo-react-ui/)
+* [Kendo UI for jQuery](http://www.telerik.com/kendo-ui)
+* [UI for ASP.NET MVC](http://www.telerik.com/aspnet-mvc)
+* [UI for ASP.NET Core](http://www.telerik.com/aspnet-core-ui)
+
+## License
+
+All available Kendo UI commercial licenses may be obtained at http://www.telerik.com/purchase/kendo-ui.
+
+If you do not own a commercial license, the usage of this software shall be governed by the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+
+*Copyright © 2020 Progress Software Corporation and/or one of its subsidiaries or affiliates. All rights reserved.*
