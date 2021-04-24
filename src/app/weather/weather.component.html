@@ -1,0 +1,93 @@
+<div class="container-fluid mainDiv">
+  <nav class="navbar">Weather Forecast</nav>
+  <div class="row searchRow">
+    <div class="col-md-3 form-group rowField">
+      <label><strong>Enter City: <span style="color:red">*</span></strong></label>
+      <input type="text" [(ngModel)]="cityName" class="form-control" (input)="enterName($event.target.value)" placeholder="City">
+    </div>
+  </div>
+<div class="row">
+    <div class="col-md-3 form-group rowField">
+      <label><strong>Choose Days: </strong></label>
+      <select name="days" [(ngModel)]="days" class="form-control">
+          <option value="1" selected>1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+    </div>
+  </div>
+  <div class="row">
+
+        <div class="col-md-3 form-group">
+            <button class="btn btn-primary" (click)="getWeatherReport()" [disabled]="enSearch">Search</button>
+          </div>
+        </div>
+      <span *ngIf="showNoDataFound"><strong>No Data Found for entered city</strong> </span>
+      <div class="row">
+        <div class="col-md-6">
+      <span *ngIf="dataFound" style="font-size:30px;"><strong>{{currentWeather.location.name}}, {{currentWeather.location.region}}, {{currentWeather.location.country}}</strong></span>
+    </div>
+    <div class="col-md-3">
+        <span *ngIf="dataFound && showInCelsius" style="font-size:20px;"><strong>Curr Temp: {{currentWeather.current.temp_c}}&deg;C </strong></span>
+        <span *ngIf="dataFound && !showInCelsius" style="font-size:20px;"><strong>Curr Temp: {{currentWeather.current.temp_f}}&deg;F </strong></span>
+        <button *ngIf="dataFound" (click)="changeTemp()">{{showInCelsius ? 'F' :'C'}}</button>
+    </div>
+    <div class="col-md-3">
+      <span *ngIf="dataFound">Last Updated: {{currentWeather.current.last_updated}}</span>
+    </div>
+    
+  </div>
+    
+    <kendo-grid *ngIf="dataFound" [data]="gridViews"
+    [pageSize]="pageSize"
+      [skip]="state.skip"
+      [filter]="state.filter"
+      [resizable]="true"
+      [reorderable]="true"
+      [sortable]="{
+          allowUnsort: allowUnsort,
+          mode: multiple ? 'multiple' : 'single'
+          }"
+          [sort]="sort"
+      (sortChange)="sortChange($event)"
+      [pageable]="{
+          buttonCount: 5,
+          info: true,
+          pageSizes:[10,20,50,100]
+        }"
+
+        (pageChange)="pageChange($event)"
+        (filterChange)="filterChange($event)"
+      [filterable]="true"
+      [columnMenu]="true"
+      [selectable]="selectableSettings"
+      (dataStateChange)="stateChange($event)">
+      <ng-template kendoGridToolbarTemplate position='top'>
+        <span class="export" [look]="outline" kendoGridPDFCommand>Export to PDF</span>
+      </ng-template>
+        <kendo-grid-column field="date" title="Date" width="100%">
+        </kendo-grid-column>
+        <kendo-grid-column field="day.condition.text" title="Condition" width="100%">
+        </kendo-grid-column>
+        <kendo-grid-column field="day.maxtemp_c" title="Max Temp (C)" width="100%">
+        </kendo-grid-column>
+        <kendo-grid-column field="day.maxtemp_f" title="Max Temp (F)" width="100%">
+        </kendo-grid-column>
+        <kendo-grid-column field="day.mintemp_c" title="Min Temp (C)" width="100%">
+        </kendo-grid-column>
+        <kendo-grid-column field="day.mintemp_f" title="Min Temp (F)" width="100%">
+        </kendo-grid-column>
+
+        <kendo-grid-pdf fileName='weatherReport.pdf' [allPages]="true">
+          <!-- <kedno-grid-pdf-margin top="1cm" left="1cm" right="1cm" bottom="1cm"></kedno-grid-pdf-margin> -->
+        </kendo-grid-pdf>
+    </kendo-grid>
+    
+  </div>
